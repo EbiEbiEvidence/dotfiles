@@ -58,11 +58,11 @@ setopt pushd_ignore_dups
 bindkey "^R" history-incremental-search-backward
 bindkey "^S" history-incremental-search-forward
 
-source $HOME/dotfiles/.zsh/aliases/init.sh
-source $HOME/dotfiles/.zsh/anyenv/init.sh
-source $HOME/dotfiles/.zsh/vim/init.sh
-source $HOME/dotfiles/.zsh/zplug/init.sh
-source $HOME/dotfiles/.zsh/ghq/init.sh
+source $HOME/dotfiles/aliases/init.sh
+source $HOME/dotfiles/anyenv/init.sh
+source $HOME/dotfiles/vim/init.sh
+source $HOME/dotfiles/zplug/init.sh
+source $HOME/dotfiles/ghq/init.sh
 
 autoload -U add-zsh-hook
 add-zsh-hook -Uz chpwd (){ title `basename \`pwd\``; }
