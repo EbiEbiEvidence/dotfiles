@@ -63,6 +63,7 @@ source $HOME/dotfiles/anyenv/init.sh
 source $HOME/dotfiles/vim/init.sh
 source $HOME/dotfiles/zplug/init.sh
 source $HOME/dotfiles/ghq/init.sh
+source $HOME/dotfiles/term/init.sh
 
 autoload -U add-zsh-hook
 add-zsh-hook -Uz chpwd (){ title `basename \`pwd\``; }
