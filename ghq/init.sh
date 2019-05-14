@@ -26,3 +26,33 @@ __ghq_commands () {
 }
 
 compdef _ghq ghq
+
+function GL() {
+    moveto=$(ghq root)/$(ghq list | fzf)
+    if [[ $(ghq root)/ == ${moveto}  ]]
+    then
+        return
+    fi
+    cd $moveto
+
+    # rename session if in tmux
+    if [[ ! -z ${TMUX} ]]
+    then
+        repo_name=${moveto##*/}
+        tmux rename-session ${repo_name//./-}
+    fi
+}
+
+function GLC() {
+    codeto=$(ghq root)/$(ghq list | fzf)
+    if [[ $(ghq root)/ == ${codeto} ]]
+    then
+        return
+    fi
+    code $codeto
+}
+
+function GG() {
+    ghq get $1
+    cd $(ghq root)/$1
+}
