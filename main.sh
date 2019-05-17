@@ -59,7 +59,7 @@ bindkey "^R" history-incremental-search-backward
 bindkey "^S" history-incremental-search-forward
 
 source $HOME/dotfiles/aliases/main.sh
-zsh $HOME/dotfiles/anyenv/main.sh
+source $HOME/dotfiles/anyenv/main.sh
 source $HOME/dotfiles/vim/main.sh
 source $HOME/dotfiles/zplug/main.sh
 source $HOME/dotfiles/ghq/main.sh
