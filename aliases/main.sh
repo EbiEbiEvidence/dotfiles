@@ -7,11 +7,11 @@ title() {
 # A to Z
 # ------------------------------------------------------------------------------
 
-alias C='code'
-alias C.='code .'
-alias E='exec $SHELL -l'
-alias O='open'
-alias O.='open .'
+alias c='code'
+alias c.='code .'
+alias e='exec $SHELL -l'
+alias o='open'
+alias o.='open .'
 
 # ------------------------------------------------------------------------------
 # git
