@@ -70,5 +70,8 @@ source $HOME/dotfiles/ghq/main.sh
 source $HOME/dotfiles/term/main.sh
 source $HOME/dotfiles/iterm/main.sh
 
+_t() { _values 'sessions' "${(@f)$(tmux ls -F '#S' 2>/dev/null )}" }
+compdef _t t
+
 autoload -U add-zsh-hook
 add-zsh-hook -Uz chpwd (){ title `basename \`pwd\``; }
