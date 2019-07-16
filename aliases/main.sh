@@ -9,6 +9,7 @@ title() {
 
 alias c='code'
 alias c.='code .'
+alias ca='carthage'
 alias e='exec $SHELL -l'
 alias o='open'
 alias o.='open .'
@@ -72,3 +73,4 @@ fi
 if type "nvim" > /dev/null; then
   alias vim=nvim
 fi
+
