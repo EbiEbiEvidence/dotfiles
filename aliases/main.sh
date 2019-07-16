@@ -12,6 +12,9 @@ alias c.='code .'
 alias e='exec $SHELL -l'
 alias o='open'
 alias o.='open .'
+t () {
+	tmux attach -t $1 2> /dev/null || tmux new -s $1 2> /dev/null || tmux ls
+}
 alias w="curl 'wttr.in/?A&lang=ja'"
 alias x='/Applications/Xcode.app/Contents/MacOS/Xcode'
 alias x.='x .'
