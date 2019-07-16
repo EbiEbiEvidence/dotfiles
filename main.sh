@@ -61,7 +61,7 @@ bindkey "^S" history-incremental-search-forward
 source $HOME/dotfiles/aliases/main.sh
 source $HOME/dotfiles/anyenv/main.sh
 source $HOME/dotfiles/vim/main.sh
-source $HOME/dotfiles/zplug/main.sh
+source $HOME/dotfiles/zplugin/main.sh
 source $HOME/dotfiles/ghq/main.sh
 source $HOME/dotfiles/term/main.sh
 source $HOME/dotfiles/iterm/main.sh
