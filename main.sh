@@ -64,6 +64,7 @@ source $HOME/dotfiles/vim/main.sh
 source $HOME/dotfiles/zplug/main.sh
 source $HOME/dotfiles/ghq/main.sh
 source $HOME/dotfiles/term/main.sh
+source $HOME/dotfiles/iterm/main.sh
 
 autoload -U add-zsh-hook
 add-zsh-hook -Uz chpwd (){ title `basename \`pwd\``; }
