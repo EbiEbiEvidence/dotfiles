@@ -35,12 +35,12 @@ function GL() {
     fi
     cd $moveto
 
-    # rename session if in tmux
-    if [[ ! -z ${TMUX} ]]
-    then
-        repo_name=${moveto##*/}
-        tmux rename-session ${repo_name//./-}
-    fi
+    # # rename session if in tmux
+    # if [[ ! -z ${TMUX} ]]
+    # then
+    #     repo_name=${moveto##*/}
+    #     tmux rename-session ${repo_name//./-}
+    # fi
 }
 
 function GLC() {
