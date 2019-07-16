@@ -12,6 +12,8 @@ alias c.='code .'
 alias e='exec $SHELL -l'
 alias o='open'
 alias o.='open .'
+alias x='/Applications/Xcode.app/Contents/MacOS/Xcode'
+alias x.='x .'
 
 # ------------------------------------------------------------------------------
 # git
