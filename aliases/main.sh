@@ -12,6 +12,7 @@ alias c.='code .'
 alias e='exec $SHELL -l'
 alias o='open'
 alias o.='open .'
+alias w="curl 'wttr.in/?A&lang=ja'"
 alias x='/Applications/Xcode.app/Contents/MacOS/Xcode'
 alias x.='x .'
 
