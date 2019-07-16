@@ -21,7 +21,6 @@ zplugin light 'mollifier/anyframe'
 # k
 zplugin ice pick'k.sh'
 zplugin light 'supercrabtree/k'
-alias ls=k
 
 # docker
 zplugin ice from"gh-r" as"program" mv"docker* -> docker-compose" bpick"*linux*"; zplugin load docker/compose
