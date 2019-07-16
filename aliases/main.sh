@@ -16,6 +16,8 @@ alias o.='open .'
 t () {
 	tmux attach -t $1 2> /dev/null || tmux new -s $1 2> /dev/null || tmux ls
 }
+_t() { _values 'sessions' "${(@f)$(tmux ls -F '#S' 2>/dev/null )}" }
+compdef _t t
 alias w="curl 'wttr.in/?A&lang=ja'"
 alias x='/Applications/Xcode.app/Contents/MacOS/Xcode'
 alias x.='x .'
