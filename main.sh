@@ -55,6 +55,10 @@ setopt auto_pushd
 # Don’t push multiple copies of the same directory onto the directory stack.
 setopt pushd_ignore_dups
 
+autoload -U colors
+colors
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
 bindkey "^R" history-incremental-search-backward
 bindkey "^S" history-incremental-search-forward
 
