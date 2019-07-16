@@ -52,6 +52,15 @@ function GLC() {
     code $codeto
 }
 
+function GLX() {
+    codeto=$(ghq root)/$(ghq list | fzf)
+    if [[ $(ghq root)/ == ${codeto} ]]
+    then
+        return
+    fi
+    x $codeto
+}
+
 function GG() {
     ghq get $1
     cd $(ghq root)/$1
