@@ -18,6 +18,9 @@ zplugin ice from"gh-r" as"program"; zplugin load junegunn/fzf-bin
 zplugin light 'b4b4r07/emoji-cli'
 zplugin light 'mollifier/anyframe'
 
+# enhancd
+zplugin light 'b4b4r07/enhancd'
+
 # k
 zplugin ice pick'k.sh'
 zplugin light 'supercrabtree/k'
