@@ -42,7 +42,7 @@ alias gp='git pull'
 alias gr='git remote'
 alias gs='git status'
 alias gw='git whatchanged'
-alias gpo='git push origin HEAD'
+alias gpo='git push -u origin HEAD'
 alias gpoh="gpo && hub browse"
 
 # ------------------------------------------------------------------------------
