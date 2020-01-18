@@ -8,7 +8,8 @@ zplugin light zdharma/fast-syntax-highlighting
 zplugin load zdharma/history-search-multi-word
 
 # fzf
-zplugin ice from"gh-r" as"program"; zplugin load junegunn/fzf-bin
+zplugin ice from"gh-r" as"program"
+zplugin load junegunn/fzf-bin
 
 # fzf-plugin
 zplugin light 'b4b4r07/emoji-cli'
