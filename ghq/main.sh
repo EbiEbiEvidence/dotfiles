@@ -62,6 +62,5 @@ function GLX() {
 }
 
 function GG() {
-    ghq get $1
-    cd $(ghq root)/$1
+    ghq get $1 --look
 }
