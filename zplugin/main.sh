@@ -7,9 +7,6 @@ zplugin light zsh-users/zsh-autosuggestions
 zplugin light zdharma/fast-syntax-highlighting
 zplugin load zdharma/history-search-multi-word
 
-# tips
-zplugin light 'djui/alias-tips'
-
 # fzf
 zplugin ice from"gh-r" as"program"; zplugin load junegunn/fzf-bin
 
