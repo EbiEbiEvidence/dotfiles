@@ -59,6 +59,8 @@ alias l="ls -lhF"
 alias la="ls -lahF"
 alias lsd="ls -lhF | grep --color=never '^d'"
 
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
 # ------------------------------------------------------------------------------
 # alias
 # ------------------------------------------------------------------------------
