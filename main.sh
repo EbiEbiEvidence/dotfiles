@@ -1,4 +1,6 @@
 export LANG=ja_JP.UTF-8
+source ~/.zplugin/bin/zplugin.zsh
+
 autoload -U compinit
 compinit -u
 
