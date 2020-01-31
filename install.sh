@@ -1,8 +1,8 @@
 # clone it
 git clone https://github.com/EbiEbiEvidence/dotfiles ~/dotfiles
 
-# zplugin
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+# zinit
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 
 # source it
 echo 'source ~/dotfiles/main.sh' >> ~/.zshrc

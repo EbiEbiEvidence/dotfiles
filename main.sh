@@ -1,5 +1,5 @@
 export LANG=ja_JP.UTF-8
-source ~/.zplugin/bin/zplugin.zsh
+source ~/.zinit/bin/zinit.zsh
 
 autoload -U compinit
 compinit -u
@@ -66,7 +66,7 @@ bindkey "^S" history-incremental-search-forward
 
 source $HOME/dotfiles/aliases/main.sh
 source $HOME/dotfiles/vim/main.sh
-source $HOME/dotfiles/zplugin/main.sh
+source $HOME/dotfiles/zinit/main.sh
 source $HOME/dotfiles/ghq/main.sh
 source $HOME/dotfiles/term/main.sh
 source $HOME/dotfiles/iterm/main.sh
