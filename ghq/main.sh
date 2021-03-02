@@ -61,6 +61,15 @@ function GLX() {
     x $codeto
 }
 
+function GLI() {
+    codeto=$(ghq root)/$(ghq list | fzf)
+    if [[ $(ghq root)/ == ${codeto} ]]
+    then
+        return
+    fi
+    idea $codeto
+}
+
 function GG() {
     ghq get $1 --look
 }
