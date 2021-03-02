@@ -29,9 +29,6 @@ zinit ice from"gh-r" as"program" mv"docker* -> docker-compose" bpick"*linux*"; z
 zinit ice as"program" atclone"rm -f src/auto/config.cache; ./configure" atpull"%atclone" make pick"src/vim"
 zinit light vim/vim
 
-# pure
-zinit ice pick"async.zsh" src"pure.zsh"; zinit light sindresorhus/pure
-
 # LS_COLORS
 zinit ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh" nocompile'!'
 zinit light trapd00r/LS_COLORS
