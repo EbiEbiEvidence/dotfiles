@@ -69,6 +69,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias untar="tar xvf"
 alias dc=popd
 alias more=less
+function jwtd() {jq -R 'split(".") | .[1] | @base64d | fromjson'}
 
 if type "pipenv" > /dev/null; then
   alias ppython="pipenv run python"
