@@ -10,6 +10,7 @@ title() {
 alias c='code'
 alias c.='code .'
 alias ca='carthage'
+alias d='docker-compose'
 alias e='exec $SHELL -l'
 alias o='open'
 alias o.='open .'
