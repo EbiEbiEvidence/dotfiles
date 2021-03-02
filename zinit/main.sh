@@ -24,6 +24,7 @@ zinit light 'supercrabtree/k'
 
 # docker
 zinit ice from"gh-r" as"program" mv"docker* -> docker-compose" bpick"*linux*"; zinit load docker/compose
+zinit light "greymd/docker-zsh-completion"
 
 # vim
 zinit ice as"program" atclone"rm -f src/auto/config.cache; ./configure" atpull"%atclone" make pick"src/vim"
