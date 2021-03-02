@@ -71,5 +71,5 @@ function GLI() {
 }
 
 function GG() {
-    ghq get $1 --look
+    ghq get $1
 }
