@@ -73,3 +73,5 @@ source $HOME/dotfiles/iterm/main.sh
 
 autoload -U add-zsh-hook
 add-zsh-hook -Uz chpwd (){ title `basename \`pwd\``; }
+
+eval "$(starship init zsh)"
